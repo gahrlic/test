@@ -60,45 +60,26 @@
 **Slot** : 게임의 함수식 구현
 
 |클래스|메서드|입력인자|출력인자|기능|
-
 |:—--|:—--|:—--|:—--|:—--|
-
 |slotgame|||||
-
 |mainWindow|buttonClicked|||버튼이 눌렸을 때의 실행과정 구현|
-
 |Slot|roll||result[]|0-9까지의 난수 구현|
 
----
 
 ||이름|역할,설명|
-
 |:—--|:—--|:—--|
-
 |Attributes(properties)|currentTrial|남은 횟수를 나타내는 변수 5에서 시작하여 1씩 감소, 0이되면 게임오버|
-
 ||currentMoney|현재 가지고있는 금액 - 0이하로 떨어지거나 100000이상이 되면 게임클리어|
-
 ||stake|판돈 - 음수와 0을 제외한 정수만 실행가능|
-
 ||slotValue|슬롯에 표시되는 숫자들의 값|
-
 |Methods|outputs|슬롯 숫자 레이아웃|
-
 ||betButton|게임시작 버튼|
-
 ||newGameButton|새게임 버튼|
-
 ||currentMoney|소지금 표시창, readonly|
-
 ||currentMoney|소지금 표시 라벨|
-
 ||stake|판돈 입력창|
-
 ||stakeLabel|판돈 입력 라벨|
-
 ||count|남은 횟수 표시창(5 - 플레이어가 실행한 게임 수), readonly|
-
 ||statusBar|상태 및 오류메세지 표시창, readonly|
 
 ---
